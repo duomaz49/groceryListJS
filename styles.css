@@ -39,13 +39,13 @@ body {
     text-align: center;
 }
 
-.container .box #grocery {
+.container .box #grocery_list {
     position: relative;
     width: 100%;
     display: flex;
 }
 
-.container .box #grocery input {
+.container .box #grocery_list input {
     position: relative;
     width: 100%;
     padding: 10px;
@@ -53,7 +53,7 @@ body {
     outline: none;
 }
 
-.container .box #grocery button {
+.container .box #grocery_list button {
     background: #71FE39;
     color: #320;
     min-width: 100px;

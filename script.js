@@ -1,6 +1,6 @@
 
-let grocery = document.getElementById('grocery');
-    grocery.addEventListener('submit', addItem);
+let grocery_list = document.getElementById('grocery_list');
+grocery_list.addEventListener('submit', addItem);
 
     function addItem(event) {
         event.preventDefault();
@@ -12,7 +12,7 @@ let grocery = document.getElementById('grocery');
         text.textContent = data;
         this.elements.text_input_list.value = "";
         item.append(text);
-        list.append(item); // Append the item to the list, not itself
+        list.append(item);
 
         let rmvBtn = document.createElement('span');
         rmvBtn.classList.add('remove');
