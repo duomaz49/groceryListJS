@@ -54,14 +54,29 @@ body {
 }
 
 .container .box #grocery_list button {
-    background: #71FE39;
+    background: hsl(133, 86%, 44%);
     color: #320;
     min-width: 100px;
-    font-weight: 500;
-    border: 1px solid #333;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
     cursor: pointer;
-    outline: none;
+    outline-offset: 4px;
+    margin-left: 5px;
 }
+.push{
+    display: block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    background: hsl(138, 86%, 54%);
+    color: black;
+    transform: translateY(-3px);
+}
+button:active .push {
+    transform: translateY(-1px);
+}
+
 
 .container ol {
     position: relative;
